@@ -14,6 +14,7 @@
 글꼴 : consolas
 */
 
+
 //전처리기 명령어
 // #pragma once 
 #pragma region 프로그래밍 언어
@@ -137,6 +138,9 @@ endl : 줄을 바꾼다
 귀찮음은 설계를 풀어 주는 방식이 그 프로그래머의역할
 */
 
+
+void TextColor(int font, int background);
+
 using namespace std;
 
 void main()
@@ -153,22 +157,28 @@ void main()
 	COORD pos = {19, 10};
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 	cout << "★" << endl;
-}
+
+	//printf("d \n d \t d \v d");
+
+	/*
+	printf(), scanf()의 서식문자
+
+	- 서식문자는 문자열을 출력 / 입력을 받을 때 해당 서식 문자의 자리를 다른 수로 대차하기위한 자리 매김 역할하는 문자
+	- 사용하는 이유는 고정되어 있지 않는 문자열을 출력 / 입력 받는 것이 가능하기 때문
+
+	- printf() scanf() 서식문자
+	   %d int / %ld long \ %lld long long \ %c char \ %s string \ %f float \ %lf double 
 
 
-/*
-과제 
+	printf() 특수문자
+	- \n 개행 | \t 수평 | \v 수직 | \\ \ | \? ? | \` ' | \" "
 
-1. 좋아하는 캐릭터 출력
-- 캐릭터 양식은 자유
-- 최소 사이즈 40x40 지킬것
-
-꼼수? 노노
-
-
-
-*/
-
+	
+	*/
+	TextColor(4, 15);
+	cout << "======================" << endl;
+	TextColor(1, 0);
+	}
 
 /*
 취업을 위해선..
@@ -181,3 +191,12 @@ void main()
 목표의 취업을 위해 성공을 위해선...
  - 논리 사고 개발, 추론, 설계, 오류를 고치는 능력
 */
+
+
+void TextColor(int font, int background)
+{
+	int color = font + background * 16;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+
+
+}
