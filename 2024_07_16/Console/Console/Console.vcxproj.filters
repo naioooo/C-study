@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Lesson">
+      <UniqueIdentifier>{7b60ac1f-ad6b-4c98-adcc-0f94c490262e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\01. 프로젝트 생성 + 입출력">
+      <UniqueIdentifier>{882bda87-7842-4b0a-aaeb-6d75bd000eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\02. 자료형 + 변수 + 난수">
+      <UniqueIdentifier>{c8616423-cd66-4e1c-8a45-0d5e88bba0a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="240716.cpp">
+      <Filter>Lesson\01. 프로젝트 생성 + 입출력</Filter>
     </ClCompile>
     <ClCompile Include="main_2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Lesson\01. 프로젝트 생성 + 입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="240717.cpp">
+      <Filter>Lesson\02. 자료형 + 변수 + 난수</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
