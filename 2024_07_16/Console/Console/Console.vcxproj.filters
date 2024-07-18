@@ -22,6 +22,9 @@
     <Filter Include="Lesson\02. 자료형 + 변수 + 난수">
       <UniqueIdentifier>{c8616423-cd66-4e1c-8a45-0d5e88bba0a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\03. 연산자 + 반복문">
+      <UniqueIdentifier>{74cf89e6-40fe-40eb-b152-113cc4bbf6af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="240717.cpp">
       <Filter>Lesson\02. 자료형 + 변수 + 난수</Filter>
+    </ClCompile>
+    <ClCompile Include="240718.cpp">
+      <Filter>Lesson\03. 연산자 + 반복문</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
