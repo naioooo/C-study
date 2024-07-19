@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
-#include<math.h>
+#include <math.h>
+#include <string>
 
 using namespace std;
 
@@ -230,7 +231,7 @@ void master_loop()
 	{
 		cout << "현재 숫자 : " << num << endl;
 		num -= 5;
-	} while (num <= 10 && num >= -15);
+	} while (num <= 5 && num >= -15);
 }
 
 
@@ -301,10 +302,14 @@ void draw_star()
  6. 마름모 찍기
   조건 : for문 1번 + 1줄
   배운것 이외에는 사용 금지
+
+
 */
 
 void draw_rhombus()
-{
+{	
+
+	
 	for (int i = 0, j = 10; i < 10; i++, j--)
 	{
 		for (int k = 0; k < j; k++)
@@ -339,6 +344,7 @@ void draw_rhombus()
 
 int main()
 {
+	
 	//과제 1
 	//gugudan();
 
@@ -352,7 +358,7 @@ int main()
 	//master_loop();
 
 	//과제 5
-	draw_star();
+	//draw_star();
 
 	//과제 6
 	draw_rhombus();

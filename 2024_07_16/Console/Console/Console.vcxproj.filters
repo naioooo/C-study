@@ -25,6 +25,9 @@
     <Filter Include="Lesson\03. 연산자 + 반복문">
       <UniqueIdentifier>{74cf89e6-40fe-40eb-b152-113cc4bbf6af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\04. 조건문">
+      <UniqueIdentifier>{9e9a7279-6898-475f-b121-5da8e3c2fa86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -38,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="240718.cpp">
       <Filter>Lesson\03. 연산자 + 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="240719.cpp">
+      <Filter>Lesson\04. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_B.cpp">
+      <Filter>Lesson\04. 조건문</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
