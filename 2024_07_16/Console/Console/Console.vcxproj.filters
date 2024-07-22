@@ -28,6 +28,9 @@
     <Filter Include="Lesson\04. 조건문">
       <UniqueIdentifier>{9e9a7279-6898-475f-b121-5da8e3c2fa86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\05. 함수 + 변/상수 + 전처리기">
+      <UniqueIdentifier>{d90d2289-657f-4d04-be1d-2534f78c2ff0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -47,6 +50,15 @@
     </ClCompile>
     <ClCompile Include="Example_B.cpp">
       <Filter>Lesson\04. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="240722_함수.cpp">
+      <Filter>Lesson\05. 함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="240722_변상수.cpp">
+      <Filter>Lesson\05. 함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="모르는 용어.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

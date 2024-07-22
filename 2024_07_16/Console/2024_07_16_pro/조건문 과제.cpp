@@ -7,7 +7,28 @@
 
 using namespace std;
 
-void print_hand(int x)
+void Print_Hand(int x);
+void RCP(int My_Hand, int Com_Hand);
+void Example1();
+void Print_Numberdays(); 
+void Function(int* a, int** b, int*** c);
+void Challage();
+
+void main()
+{
+	srand(time(NULL));
+
+	//과제 1
+	//Example1();
+	
+	//과제 2
+	//Print_Numberdays();	
+
+	//도전과제
+	Challage();
+}
+
+void Print_Hand(int x)
 {
 	if (x == SCISSORS)
 		cout << " 가위를 냈습니다" << endl;
@@ -16,29 +37,6 @@ void print_hand(int x)
 	else if (x == PAPER)
 		cout << " 보를 냈습니다" << endl;
 }
-void RCP(int My_Hand, int Com_Hand);
-void Example1();
-void Print_Numberdays();
-void Function(int* a, int** b, int*** c);
-
-void main()
-{
-	srand(time(NULL));
-
-	//과제 1
-	Example1();
-	
-	//과제 2
-	Print_Numberdays();	
-
-	//도전과제
-	int Hand = SCISSORS;
-	int* ptr1 = &Hand;
-	int** ptr2 = &ptr1;
-	int*** ptr3 = &ptr2;
-    Function(ptr1, ptr2, ptr3);
-}
-
 /*
 1. 가위바위보 만들기
  if문을 사용해서 만든다
@@ -51,9 +49,9 @@ void main()
 void RCP(int My_Hand, int Com_Hand)
 {
 	cout << "컴퓨터는";
-	print_hand(Com_Hand);
+	Print_Hand(Com_Hand);
 	cout << "당신은";
-	print_hand(My_Hand);
+	Print_Hand(My_Hand);
 	cout << endl;
 
 	if (My_Hand < 1 || My_Hand > 3)
@@ -64,27 +62,13 @@ void RCP(int My_Hand, int Com_Hand)
 	{
 		cout << "비겼습니다" << endl;
 	}
-	else if (My_Hand > Com_Hand)
+	else if ((My_Hand - Com_Hand == -2) || (My_Hand - Com_Hand == 1))
 	{
-		if (My_Hand - Com_Hand == 2)
-		{
-			cout << "컴퓨터가 이겼습니다" << endl;
-		}
-		else if (My_Hand - Com_Hand == 1)
-		{
-			cout << "당신이 이겼습니다" << endl;
-		}
+		cout << "당신이 이겼습니다" << endl;
 	}
-	else if (My_Hand < Com_Hand)
+	else if ((My_Hand - Com_Hand == 2) || (My_Hand - Com_Hand == -1))
 	{
-		if (Com_Hand - My_Hand == 2)
-		{
-			cout << "당신이 이겼습니다" << endl;
-		}
-		else if (Com_Hand - My_Hand == 1)
-		{
-			cout << "컴퓨터가 이겼습니다" << endl;
-		}
+		cout << "컴퓨터가 이겼습니다" << endl;
 	}
 
 	cout << endl;
@@ -157,12 +141,51 @@ void Print_Numberdays()
 */
 void Function(int* a, int** b, int*** c)
 {
+	cout << "플레이어 A의 가위바위보" << endl;
 	int Com_Hand = rand() % 3 + 1;
 	RCP(*a, Com_Hand);
 	
+	cout << "플레이어 B의 가위바위보" << endl;
 	Com_Hand = rand() % 3 + 1;
 	RCP(**b, Com_Hand);
 
+	cout << "플레이어 C의 가위바위보" << endl;
 	Com_Hand = rand() % 3 + 1;
 	RCP(***c, Com_Hand);
+}
+void Challage()
+{
+
+	int Hand_A;
+	int Hand_B;
+	int Hand_C;
+
+	cout << "플레이어 A가 낼 것을 고르시오 " << endl;
+	cout << "가위 : 1 바위 : 2 보 : 3 " << endl;
+
+	cin >> Hand_A;
+	cout << endl;
+
+	int* ptrA = &Hand_A;
+
+	cout << "플레이어 B가 낼 것을 고르시오 " << endl;
+	cout << "가위 : 1 바위 : 2 보 : 3 " << endl;
+
+	cin >> Hand_B;
+	cout << endl;
+
+	int* ptr = &Hand_B;
+	int** ptrB = &ptr;
+
+	cout << "플레이어 C가 낼 것을 고르시오 " << endl;
+	cout << "가위 : 1 바위 : 2 보 : 3 " << endl;
+
+	cin >> Hand_C;
+	cout << endl;
+
+	int* ptr1 = &Hand_C;
+	int** ptr2 = &ptr1;
+	int*** ptrC = &ptr2;
+
+	Function(ptrA, ptrB, ptrC);
 }
