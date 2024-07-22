@@ -13,28 +13,49 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\01. 프로젝트 생성 + 입출력">
+      <UniqueIdentifier>{a520a8d5-0a29-416f-8e33-b09de4c0a0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. 자료형 + 변수 + 난수">
+      <UniqueIdentifier>{f79df3f0-37b8-4652-98d7-4bab741f808d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. 연산자 + 반복문">
+      <UniqueIdentifier>{3a4d0483-e512-4caa-9026-7a43adbc1ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. 조건문">
+      <UniqueIdentifier>{1ad6c56a-7804-4969-bae3-612ffd38f1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. 함수 + 변/상수 + 전처리기">
+      <UniqueIdentifier>{ab1bc05c-589b-48bd-96d0-3ae6d21db1fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="자기소개 출력.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="캐릭터 출력.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\01. 프로젝트 생성 + 입출력</Filter>
     </ClCompile>
-    <ClCompile Include="컬러 캐릭터 출력.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="간단한 아이템 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="랜덤 숫자 담기.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="자기소개 출력.cpp">
+      <Filter>소스 파일\01. 프로젝트 생성 + 입출력</Filter>
     </ClCompile>
     <ClCompile Include="반복문,연산자 과제.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\03. 연산자 + 반복문</Filter>
     </ClCompile>
     <ClCompile Include="조건문 과제.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\04. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="간단한 아이템 만들기.cpp">
+      <Filter>소스 파일\02. 자료형 + 변수 + 난수</Filter>
+    </ClCompile>
+    <ClCompile Include="컬러 캐릭터 출력.cpp">
+      <Filter>소스 파일\02. 자료형 + 변수 + 난수</Filter>
+    </ClCompile>
+    <ClCompile Include="랜덤 숫자 담기.cpp">
+      <Filter>소스 파일\02. 자료형 + 변수 + 난수</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 관련 테스트.cpp">
+      <Filter>소스 파일\05. 함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="함수 과제.cpp">
+      <Filter>소스 파일\05. 함수 + 변/상수 + 전처리기</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

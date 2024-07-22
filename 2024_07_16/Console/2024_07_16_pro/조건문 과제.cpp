@@ -28,6 +28,8 @@ void main()
 	Challage();
 }
 
+
+
 void Print_Hand(int x)
 {
 	if (x == SCISSORS)
