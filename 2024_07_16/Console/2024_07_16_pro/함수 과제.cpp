@@ -23,12 +23,13 @@ int cal_age(int age);
 int get_angle(int angle);
 
 // 가위바위보
-void RCP(); 
+void RCP();
+bool Check_Cheat();
 bool Check_Money(int Money);
 void Print_Hand(int Hand);
 int Get_Bet(int Money);
 int Get_Hand();
-int Check_Fight(int My_Hand, int Com_Hand);
+int Check_Fight(int My_Hand, int Com_Hand, bool cheat);
 int Count_Money(int Result, int Bet, int Money);
 
 int main()
@@ -39,7 +40,7 @@ int main()
 	remind();
 
 	// 가위바위보
-	//RCP();
+	RCP();
 	return 0;
 }
 
@@ -74,6 +75,7 @@ int divde(int num1, int num2)
 
 	return answer;
 }
+
 int cal_age(int age) 
 {
 	int answer = 0;
@@ -120,14 +122,36 @@ void RCP()
 		if (Check_Money(Money))
 			break;
 
+		int cheat = Check_Cheat();
+
 		int Bet = Get_Bet(Money);
 		Money -= Bet;
 		int My_Hand = Get_Hand();		
 		int Com_Hand = rand() % 3 + 1;
 				
-		int Result = Check_Fight(My_Hand, Com_Hand);
+		int Result = Check_Fight(My_Hand, Com_Hand, cheat);
 		Money = Count_Money(Result, Bet, Money);
 	}
+}
+
+bool Check_Cheat()
+{
+	int cheat = 0;
+
+	while (true)
+	{
+		cout << "치트를 키시겠습니까? 0 : 아니오 1 : 예" << endl;
+		cin >> cheat;
+		cout << endl;
+
+		if (cheat >= 0 && cheat <= 1)
+			break;
+
+		cout << "잘못된 수를 입력하셨습니다" << endl;
+	}
+
+	cout << endl;
+	return cheat;
 }
 
 bool Check_Money(int Money)
@@ -200,7 +224,7 @@ void Print_Hand(int Hand)
 	}
 }
 
-int Check_Fight(int My_Hand,int Com_Hand)
+int Check_Fight(int My_Hand,int Com_Hand, bool cheat)
 {
 	int Result = 0;
 
@@ -209,6 +233,12 @@ int Check_Fight(int My_Hand,int Com_Hand)
 
 	cout << "컴퓨터는";
 	Print_Hand(Com_Hand);
+
+
+	if (cheat)
+	{
+		return WIN;
+	}
 
 	switch (My_Hand)
 	{
@@ -255,6 +285,8 @@ int Check_Fight(int My_Hand,int Com_Hand)
 		}
 		break;
 	}
+
+
 
 	cout << endl;
 	return Result;

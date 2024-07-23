@@ -38,17 +38,6 @@
 2. **호출 방식**: 함수는 이름으로 호출되지만, 메소드는 객체를 통해 호출됩니다.
 3. **역할**: 함수는 일반적으로 특정 작업을 수행하는 데 사용되며, 메소드는 객체의 상태를 조작하거나 객체와 관련된 작업을 수행합니다¹².
 
-이해가 되셨나요? 더 궁금한 점이 있으면 언제든지 물어보세요! 😊
-
-¹: [네이버 블로그](https://blog.naver.com/PostView.naver?blogId=stranger_yang&logNo=223376251160)
-²: [벨로그](https://velog.io/@yejin20/Python-%ED%95%A8%EC%88%98%EC%99%80-%EB%A9%94%EC%86%8C%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90)
-
-원본: Copilot과의 대화, 2024. 7. 22.
-(1) 함수와 메소드의 차이! 초보자도 쉽게 이해하는 비교 설명 .... https://blog.naver.com/PostView.naver?blogId=stranger_yang&logNo=223376251160.
-(2) [Python] 함수와 메소드의 차이점 - 벨로그. https://velog.io/@yejin20/Python-%ED%95%A8%EC%88%98%EC%99%80-%EB%A9%94%EC%86%8C%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90.
-(3) 메서드(Method)와 함수(Function) 의 차이점과 공통점 - HTML6. https://bing.com/search?q=%ed%95%a8%ec%88%98%ec%99%80+%eb%a9%94%ec%86%8c%eb%93%9c%ec%9d%98+%ec%b0%a8%ec%9d%b4.
-(4) 함수, 메소드 , 개념차이_Day47 - 칼리드월드. https://khalidpark2029.tistory.com/145.
-(5) 함수(Function) VS 메소드(Method) - ZeddiOS. https://zeddios.tistory.com/233.
 */
 #pragma endregion
 
@@ -76,18 +65,6 @@ int main() {
 
 이 코드에서 `L'가'`는 wide character 리터럴을 나타내며, `wcout`을 사용하여 wide character를 출력합니다.
 
-더 궁금한 점이 있으면 언제든지 물어보세요! 😊
-
-¹: [Stack Overflow](https://stackoverflow.com/questions/13509733/what-is-the-use-of-wchar-t-in-general-programming)
-²: [Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/char-wchar-t-char16-t-char32-t?view=msvc-170)
-³: [cplusplus.com](https://cplusplus.com/reference/cwchar/wchar_t/)
-
-원본: Copilot과의 대화, 2024. 7. 22.
-(1) c++ - What is the use of wchar_t in general programming? - Stack Overflow. https://stackoverflow.com/questions/13509733/what-is-the-use-of-wchar-t-in-general-programming.
-(2) c++ - What is the difference between 'WCHAR' and 'wchar_t'? - Stack Overflow. https://stackoverflow.com/questions/561839/what-is-the-difference-between-wchar-and-wchar-t.
-(3) char, wchar_t, char8_t, char16_t, char32_t | Microsoft Learn. https://learn.microsoft.com/en-us/cpp/cpp/char-wchar-t-char16-t-char32-t?view=msvc-170.
-(4) wchar_t - C++ Users. https://cplusplus.com/reference/cwchar/wchar_t/.
-(5) char-wchar-t-char16-t-char32-t.md - GitHub. https://github.com/MicrosoftDocs/cpp-docs/blob/main/docs/cpp/char-wchar-t-char16-t-char32-t.md.
 */
 #pragma endregion
 
@@ -156,17 +133,7 @@ int main() {
 
 이 예제에서 `Child` 클래스는 `Parent` 클래스를 상속받아 `show` 메서드를 재정의합니다. `main` 함수에서 `Parent`와 `Child` 객체를 생성하고, 각각의 `show` 메서드를 호출하여 결과를 확인할 수 있습니다.
 
-상속을 통해 코드의 재사용성을 높이고, 클래스 간의 계층적 관계를 명확히 할 수 있습니다. 더 궁금한 점이 있으면 언제든지 물어보세요! 😊
-
-¹: [네이버 블로그](https://m.blog.naver.com/hj_kim97/222944419940)
-²: [네이버 블로그](https://blog.naver.com/PostView.naver?blogId=higeon_&logNo=223330600673&noTrackingCode=true)
-
-원본: Copilot과의 대화, 2024. 7. 22.
-(1) [C++]C++ 상속 (기초 클래스, 파생 클래스, 추상 클래스) : 네이버 .... https://m.blog.naver.com/hj_kim97/222944419940.
-(2) [C++ 이론] 클래스 - 상속(Inheritance) : 네이버 블로그. https://blog.naver.com/PostView.naver?blogId=higeon_&logNo=223330600673&noTrackingCode=true.
-(3) C++ 강좌 14편. 상속 오버라이딩과 가상 함수, 그리고 다중 상속. https://blog.hexabrain.net/175.
-
-
+상속을 통해 코드의 재사용성을 높이고, 클래스 간의 계층적 관계를 명확히 할 수 있습니다. 
 
 ================================================
 
@@ -267,23 +234,7 @@ int main() {
 }
 ```
 
-이처럼 상속을 활용하면 코드의 재사용성을 높이고, 클래스 간의 관계를 명확히 할 수 있습니다. 더 궁금한 점이 있으면 언제든지 물어보세요! 😊
-
-¹: [네이버 블로그](https://m.blog.naver.com/hj_kim97/222944419940)
-²: [Hexabrain 블로그](https://blog.hexabrain.net/173)
-
-원본: Copilot과의 대화, 2024. 7. 22.
-(1) [C++]C++ 상속 (기초 클래스, 파생 클래스, 추상 클래스) : 네이버 .... https://m.blog.naver.com/hj_kim97/222944419940.
-(2) [C/C++ 프로그래밍 : 중급] 5. 상속 - GDNGY. https://bing.com/search?q=C%2b%2b+%ed%81%b4%eb%9e%98%ec%8a%a4+%ec%83%81%ec%86%8d+%ed%99%9c%ec%9a%a9+%ec%98%88%ec%a0%9c.
-(3) C++ 클래스 구현, 상속, 자동차 예제 - pepe. https://pepega.tistory.com/7.
-(4) [C++ 이론] 클래스 - 상속(Inheritance) : 네이버 블로그. https://blog.naver.com/PostView.naver?blogId=higeon_&logNo=223330600673&noTrackingCode=true.
-(5) C++ 강좌 12편. 상속(Inheritance) - 끝나지 않는 프로그래밍 일기. https://blog.hexabrain.net/173.
-(6) undefined. https://bing.com/search?q=.
-(7) github.com. https://github.com/40660367/books/tree/7923d36dc357df0261478d69a3e92fba56c4232a/cpp%2Foob-inheritance.md.
-(8) github.com. https://github.com/Kunalsjcodes/Cpp_Language/tree/f918922f8e48fd840c880b416729f4912cc18dd7/Ex_Inhertance_multilevel.cpp.
-(9) github.com. https://github.com/swap2499/CPP-Program/tree/570bd23f10b368aa62ba5ac3a4aa845f953e9455/Inheritance%2Fsingle2.cpp.
-
-
+이처럼 상속을 활용하면 코드의 재사용성을 높이고, 클래스 간의 관계를 명확히 할 수 있습니다. 
 */
 #pragma endregion
 

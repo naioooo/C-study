@@ -31,6 +31,9 @@
     <Filter Include="Lesson\05. 함수 + 변/상수 + 전처리기">
       <UniqueIdentifier>{d90d2289-657f-4d04-be1d-2534f78c2ff0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\06. 배열">
+      <UniqueIdentifier>{efc4d540-6d18-4cf0-aa52-b6fa591add4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="모르는 용어.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="240723_배열.cpp">
+      <Filter>Lesson\06. 배열</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
