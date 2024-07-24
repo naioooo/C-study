@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\06. 배열">
       <UniqueIdentifier>{af54ad23-7dd7-468d-b2e6-c157b881fea1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\07. 문자열 + 함수오버로딩">
+      <UniqueIdentifier>{f5acf0ec-430d-4683-a279-af36a7fecd40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -62,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="숫자야구.cpp">
       <Filter>소스 파일\06. 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="캐릭터 스킬 입력받기.cpp">
+      <Filter>소스 파일\07. 문자열 + 함수오버로딩</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
