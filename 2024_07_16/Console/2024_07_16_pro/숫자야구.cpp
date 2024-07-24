@@ -140,7 +140,7 @@ void number_baseball()
 	    	{
 	    		if (player_arr[i] == com_arr[i])
 	    		{
-	    			strike++;
+	    			strike++; 
 	    		}
 	    		else
 	    		{

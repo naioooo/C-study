@@ -34,6 +34,9 @@
     <Filter Include="Lesson\06. 배열">
       <UniqueIdentifier>{efc4d540-6d18-4cf0-aa52-b6fa591add4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\07. 문자열 + 함수오버로딩">
+      <UniqueIdentifier>{abd827d8-82c4-448f-b328-3d9a88b21597}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -65,6 +68,12 @@
     </ClCompile>
     <ClCompile Include="240723_배열.cpp">
       <Filter>Lesson\06. 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="240724_문자열.cpp">
+      <Filter>Lesson\07. 문자열 + 함수오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="240724_함수오버로딩.cpp">
+      <Filter>Lesson\07. 문자열 + 함수오버로딩</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
