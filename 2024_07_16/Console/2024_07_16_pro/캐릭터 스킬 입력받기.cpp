@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
-
 
 /*
 °úÁ¦
@@ -160,7 +160,6 @@ void example2()
 
 int main()
 {
-
 
 	example1();
 	//example2();

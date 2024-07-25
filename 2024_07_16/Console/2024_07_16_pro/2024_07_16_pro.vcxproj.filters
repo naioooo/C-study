@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\07. 문자열 + 함수오버로딩">
       <UniqueIdentifier>{f5acf0ec-430d-4683-a279-af36a7fecd40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\08. 사용자 정의 자료형">
+      <UniqueIdentifier>{c4a620e3-ab33-4260-bc18-3bb03b2715fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="캐릭터 스킬 입력받기.cpp">
       <Filter>소스 파일\07. 문자열 + 함수오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="카드게임.cpp">
+      <Filter>소스 파일\08. 사용자 정의 자료형</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
