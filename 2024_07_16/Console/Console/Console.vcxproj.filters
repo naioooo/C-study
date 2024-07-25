@@ -37,6 +37,9 @@
     <Filter Include="Lesson\07. 문자열 + 함수오버로딩">
       <UniqueIdentifier>{abd827d8-82c4-448f-b328-3d9a88b21597}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\08. 사용자 정의 자료형">
+      <UniqueIdentifier>{67ac4ba8-d8e8-49b6-b944-f69edb648b55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -74,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="240724_함수오버로딩.cpp">
       <Filter>Lesson\07. 문자열 + 함수오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="240725_enum + enumclass.cpp">
+      <Filter>Lesson\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="240725_구조체.cpp">
+      <Filter>Lesson\08. 사용자 정의 자료형</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
