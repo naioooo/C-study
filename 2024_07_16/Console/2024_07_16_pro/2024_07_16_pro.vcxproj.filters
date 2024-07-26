@@ -75,5 +75,11 @@
     <ClCompile Include="카드게임.cpp">
       <Filter>소스 파일\08. 사용자 정의 자료형</Filter>
     </ClCompile>
+    <ClCompile Include="..\Console\240725_빙고 + 슬라이드퍼즐.cpp">
+      <Filter>소스 파일\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="240726_과제.cpp">
+      <Filter>소스 파일\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
