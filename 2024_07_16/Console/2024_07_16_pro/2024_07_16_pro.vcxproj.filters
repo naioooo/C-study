@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\08. 사용자 정의 자료형">
       <UniqueIdentifier>{c4a620e3-ab33-4260-bc18-3bb03b2715fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\09. 포인터">
+      <UniqueIdentifier>{c7cc0fb6-539c-46e3-973a-04da405ef7cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="240726_과제.cpp">
       <Filter>소스 파일\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="학생정보.cpp">
+      <Filter>소스 파일\09. 포인터</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
