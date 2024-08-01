@@ -40,6 +40,9 @@
     <Filter Include="Lesson\08. 사용자 정의 자료형">
       <UniqueIdentifier>{67ac4ba8-d8e8-49b6-b944-f69edb648b55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\09. 포인터">
+      <UniqueIdentifier>{d09cd1cb-4995-44e1-aad7-58a050211be7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -83,6 +86,12 @@
     </ClCompile>
     <ClCompile Include="240725_구조체.cpp">
       <Filter>Lesson\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="240801_포인터.cpp">
+      <Filter>Lesson\09. 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="240801_포인터배열.cpp">
+      <Filter>Lesson\09. 포인터</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
