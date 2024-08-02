@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\09. 포인터">
       <UniqueIdentifier>{c7cc0fb6-539c-46e3-973a-04da405ef7cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10. 클래스">
+      <UniqueIdentifier>{9027e12e-2e70-495a-a70b-a14d167bc910}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -86,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="학생정보.cpp">
       <Filter>소스 파일\09. 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="대전게임.cpp">
+      <Filter>소스 파일\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스화.cpp">
+      <Filter>소스 파일\10. 클래스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
