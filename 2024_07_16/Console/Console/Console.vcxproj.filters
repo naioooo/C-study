@@ -43,6 +43,9 @@
     <Filter Include="Lesson\09. 포인터">
       <UniqueIdentifier>{d09cd1cb-4995-44e1-aad7-58a050211be7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\10. 클래스">
+      <UniqueIdentifier>{bcff9bbd-f8b5-479d-92cd-e451c39af287}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -92,6 +95,18 @@
     </ClCompile>
     <ClCompile Include="240801_포인터배열.cpp">
       <Filter>Lesson\09. 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="240802_클래스.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240802_생성자.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240802_소멸자.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240802_접근자설정자.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
