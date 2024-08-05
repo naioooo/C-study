@@ -46,6 +46,9 @@
     <Filter Include="Lesson\10. 클래스">
       <UniqueIdentifier>{bcff9bbd-f8b5-479d-92cd-e451c39af287}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\NewFilter1">
+      <UniqueIdentifier>{b93e9229-5925-4e41-bccd-f06759dbe49f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -107,6 +110,12 @@
     </ClCompile>
     <ClCompile Include="240802_접근자설정자.cpp">
       <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_static extern.cpp">
+      <Filter>Lesson\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_복사생성자.cpp">
+      <Filter>Lesson\NewFilter1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

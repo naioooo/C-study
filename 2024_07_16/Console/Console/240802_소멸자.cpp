@@ -17,31 +17,31 @@ using namespace std;
 */
 #pragma endregion
 
-class MyClass
+class Character
 {
 private:
 	int* data;
 public:
-	MyClass(int size); // 持失切
-	~MyClass(); // 社瑚切
+	Character(int size); // 持失切
+	~Character(); // 社瑚切
 };
 
 int main()
 {
-	MyClass* cla = new MyClass(20);
+	Character* cla = new Character(20);
 
 	delete cla;
 
 	return 0;
 }
 
-MyClass::MyClass(int size)
+Character::Character(int size)
 {
 	data = new int[size];
 	cout << "持失切 硲窒" << endl;
 }
 
-MyClass::~MyClass()
+Character::~Character()
 {
 	delete[] data;
 	data = nullptr;
