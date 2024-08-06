@@ -49,6 +49,9 @@
     <Filter Include="헤더 파일\10. 클래스">
       <UniqueIdentifier>{22a370a6-55a7-4179-b81c-d1c4036a4057}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\11. 가상함수">
+      <UniqueIdentifier>{800e4619-8262-439e-a989-0d2a1955abf7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -132,6 +135,24 @@
     <ClCompile Include="Mage.cpp">
       <Filter>Lesson\10. 클래스</Filter>
     </ClCompile>
+    <ClCompile Include="240805_Virtual.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Bike.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_동적바인딩.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_순수가상함수.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maingame.h">
@@ -144,6 +165,15 @@
       <Filter>헤더 파일\10. 클래스</Filter>
     </ClInclude>
     <ClInclude Include="Mage.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Bike.h">
       <Filter>헤더 파일\10. 클래스</Filter>
     </ClInclude>
   </ItemGroup>
