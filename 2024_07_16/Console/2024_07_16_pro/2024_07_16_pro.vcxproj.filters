@@ -43,6 +43,12 @@
     <Filter Include="소스 파일\10. 클래스">
       <UniqueIdentifier>{9027e12e-2e70-495a-a70b-a14d167bc910}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11. 가상함수">
+      <UniqueIdentifier>{f7811522-5045-40b4-b4c9-5edee3ca4d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\11. 가상함수">
+      <UniqueIdentifier>{b5ed3179-56c8-4c1a-a89d-8f6f621529ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -96,5 +102,43 @@
     <ClCompile Include="클래스화.cpp">
       <Filter>소스 파일\10. 클래스</Filter>
     </ClCompile>
+    <ClCompile Include="캐릭터클래스 구현.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Adventurer.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일\11. 가상함수</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventurer.h">
+      <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
