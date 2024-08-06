@@ -9,10 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Lesson">
       <UniqueIdentifier>{7b60ac1f-ad6b-4c98-adcc-0f94c490262e}</UniqueIdentifier>
     </Filter>
@@ -46,8 +42,12 @@
     <Filter Include="Lesson\10. 클래스">
       <UniqueIdentifier>{bcff9bbd-f8b5-479d-92cd-e451c39af287}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Lesson\NewFilter1">
-      <UniqueIdentifier>{b93e9229-5925-4e41-bccd-f06759dbe49f}</UniqueIdentifier>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\10. 클래스">
+      <UniqueIdentifier>{22a370a6-55a7-4179-b81c-d1c4036a4057}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -111,16 +111,40 @@
     <ClCompile Include="240802_접근자설정자.cpp">
       <Filter>Lesson\10. 클래스</Filter>
     </ClCompile>
-    <ClCompile Include="240805_static extern.cpp">
-      <Filter>Lesson\NewFilter1</Filter>
-    </ClCompile>
     <ClCompile Include="240805_복사생성자.cpp">
-      <Filter>Lesson\NewFilter1</Filter>
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_상속.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_static extern.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="240805_헤더소스분리.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Lesson\10. 클래스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maingame.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>헤더 파일\10. 클래스</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,7 +1,5 @@
 #pragma once
-
 #include "Unit.h"
-using namespace std;
 
 class Mage : public Unit
 {
@@ -12,5 +10,5 @@ public:
 	Mage(const string& n, const int h);
 	~Mage();
 
-	void CastSkill
+	void Mage();
 };

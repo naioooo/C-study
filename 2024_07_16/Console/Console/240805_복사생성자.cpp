@@ -39,7 +39,7 @@ public:
 	{
 		age = a;
 	}
-	int Getage()
+	int GetAge()
 	{
 		return age;
 	}
@@ -112,7 +112,7 @@ int main()
 	Person a(21);
 	Person b(a);
 
-	cout << " a : " << a.Getage() << " b : " << b.Getage() << endl;
+	cout << " a : " << a.GetAge() << " b : " << b.GetAge() << endl;
 
 	vector<int> original = { 1, 2, 3 };
 	vector<int> shallowCopy = original;

@@ -58,13 +58,13 @@ public:
 	}
 };
 
-class Warrior
+class C_Warrior
 {
 	string name;
 	int health;
 
 public:
-	Warrior(const string& n, const int h) : name(n), health(h) {}
+	C_Warrior(const string& n, const int h) : name(n), health(h) {}
 
 	void Attack()
 	{
@@ -78,13 +78,13 @@ public:
 	}
 };
 
-class Mage
+class C_Mage
 {
 	string name;
 	int health;
 
 public:
-	Mage(const string& n, const int h) : name(n), health(h) {}
+	C_Mage(const string& n, const int h) : name(n), health(h) {}
 
 	void Attack()
 	{
@@ -151,7 +151,7 @@ int main()
 {
 	Child c;
 	
-	Warrior* warrior = new Warrior("전사", 100);
+	C_Warrior* warrior = new C_Warrior("전사", 100);
 	warrior->Attack();
 	warrior->TakeDamage(10);
 	
