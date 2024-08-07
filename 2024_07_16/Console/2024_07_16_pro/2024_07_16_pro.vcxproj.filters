@@ -49,6 +49,12 @@
     <Filter Include="헤더 파일\11. 가상함수">
       <UniqueIdentifier>{b5ed3179-56c8-4c1a-a89d-8f6f621529ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\12. 템플릿">
+      <UniqueIdentifier>{86eb8320-bdc3-439d-93a6-7ba06dc78c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\12. 템플릿">
+      <UniqueIdentifier>{f0b4c31f-ccc7-4677-87df-6c2906e5843c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -120,6 +126,18 @@
     <ClCompile Include="Warrior.cpp">
       <Filter>소스 파일\11. 가상함수</Filter>
     </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\12. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\12. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitingScene.cpp">
+      <Filter>소스 파일\12. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스 대전게임.cpp">
+      <Filter>소스 파일\12. 템플릿</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library.h">
@@ -139,6 +157,15 @@
     </ClInclude>
     <ClInclude Include="Warrior.h">
       <Filter>헤더 파일\11. 가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\12. 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\12. 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitingScene.h">
+      <Filter>헤더 파일\12. 템플릿</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

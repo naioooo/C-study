@@ -3,19 +3,15 @@
 class Archer : public Adventurer
 {
 private:
-	int accuracy;
 	
 public:
 	Archer();
-	Archer(const string& n, const int s, const int d, const int i, const int l, const int e, const int acc);
+	Archer(const string& n, const int s, const int d, const int i, const int l, const int h);
 	~Archer();
 
-	int GetACC();
-	void SetACC(const int a);
-
 	void Move() override;
-	void Attack() override;
-	void Snipe();
+	int Attack() override;
+	int Skill() override;
 
 	void ShowStats() override;
 };

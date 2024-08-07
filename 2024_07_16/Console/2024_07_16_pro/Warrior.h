@@ -3,19 +3,15 @@
 class Warrior : public Adventurer
 {
 private:
-	int defense;
 
 public:
 	Warrior();
-	Warrior(const string& n, const int s, const int d, const int i, const int l, const int e, const int def);
+	Warrior(const string& n, const int s, const int d, const int i, const int l, const int h);
 	~Warrior();
 
-	int GetDEF();
-	void SetDEF(const int d);
-
 	void Move() override;
-	void Attack() override;
-	void Block();
+	int Attack() override;
+	int Skill() override;
 
 	void ShowStats() override;
 };

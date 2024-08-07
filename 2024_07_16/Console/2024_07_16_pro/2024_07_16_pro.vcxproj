@@ -133,8 +133,11 @@
     </ClCompile>
     <ClCompile Include="Adventurer.cpp" />
     <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Mage.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Thief.cpp" />
+    <ClCompile Include="WaitingScene.cpp" />
     <ClCompile Include="Warrior.cpp" />
     <ClCompile Include="방학시험.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -154,7 +157,9 @@
     <ClCompile Include="반복문,연산자 과제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="캐릭터클래스 구현.cpp" />
+    <ClCompile Include="캐릭터클래스 구현.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="숫자야구.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -176,6 +181,7 @@
     <ClCompile Include="컬러 캐릭터 출력.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="클래스 대전게임.cpp" />
     <ClCompile Include="클래스화.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -189,9 +195,12 @@
   <ItemGroup>
     <ClInclude Include="Adventurer.h" />
     <ClInclude Include="Archer.h" />
+    <ClInclude Include="GameScene.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="Mage.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="Thief.h" />
+    <ClInclude Include="WaitingScene.h" />
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

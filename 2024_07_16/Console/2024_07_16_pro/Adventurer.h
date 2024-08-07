@@ -11,12 +11,15 @@ private:
 	int INT;
 	int LUK;
 
-	int EXP;
+	int HP;
+	int input;
+	int target;
+	int ableskill;
 
 public:
 
 	Adventurer();
-	Adventurer(const string& n, const int s, const int d, const int i, const int l, const int e);
+	Adventurer(const string& n, const int s, const int d, const int i, const int l, const int h);
 	virtual ~Adventurer();
 
 	string GetName();
@@ -24,19 +27,25 @@ public:
 	int GetDEX();
 	int GetINT();
 	int GetLUK();
-	int GetEXP();
+	int GetHP();
+	int Getinput();
+	int Gettarget();
+	int Getableskill();
 
 	void SetName(const string & n);
 	void SetSTR(const int s);
 	void SetDEX(const int d);
 	void SetINT(const int i);
 	void SetLUK(const int l);
-	void SetEXP(const int e);
+	void SetHP(const int h);
+	void Setinput(const int i);
+	void Settarget(const int t);
+	void Setableskill(const int s);
 
 	virtual void Move() = 0;
-	virtual void Attack() = 0;
+	virtual int Attack() = 0;
 
 	virtual void ShowStats();
-	//virtual void Damage();
+	virtual int Skill() = 0;
 };
 

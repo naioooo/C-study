@@ -8,6 +8,12 @@
 /*
 추상클래스를 이용해서 활용한 세가지 캐릭터 클래스 구현
 기본 스탯 움직임 공격함수 데미지 함수 등등
+
+GameScene 이라는 클래스 생성
+여기서 전투하는 방식을 구현
+
+main 에서 게임씬 
+
 */
 
 int main()
@@ -32,10 +38,10 @@ int main()
 	cout << "다운 캐스팅으로 자식클래스 멤버함수 호출" << endl;
 	cout << endl;
 	//다운캐스팅으로 자식클래스 멤버함수 호출
-	dynamic_cast<Warrior*>(Adventurers[0])->Block();
-	dynamic_cast<Mage*>(Adventurers[1])->Fireball();
-	dynamic_cast<Archer*>(Adventurers[2])->Snipe();
-	dynamic_cast<Thief*>(Adventurers[3])->Steal();
+	dynamic_cast<Warrior*>(Adventurers[0])->Skill();
+	dynamic_cast<Mage*>(Adventurers[1])->Skill();
+	dynamic_cast<Archer*>(Adventurers[2])->Skill();
+	dynamic_cast<Thief*>(Adventurers[3])->Skill();
 	cout << endl;
 
 	for (auto Adventurer : Adventurers)
