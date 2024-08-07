@@ -52,6 +52,9 @@
     <Filter Include="Lesson\11. 가상함수">
       <UniqueIdentifier>{800e4619-8262-439e-a989-0d2a1955abf7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\12. 템플릿">
+      <UniqueIdentifier>{79fb2903-ebbb-44b8-a96f-63bea0b37019}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -151,6 +154,15 @@
       <Filter>Lesson\11. 가상함수</Filter>
     </ClCompile>
     <ClCompile Include="240805_순수가상함수.cpp">
+      <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="240807_template.cpp">
+      <Filter>Lesson\12. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="240807_template%282%29.cpp">
+      <Filter>Lesson\12. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="240807_업다운캐스팅.cpp">
       <Filter>Lesson\11. 가상함수</Filter>
     </ClCompile>
   </ItemGroup>
