@@ -131,14 +131,39 @@
     <ClCompile Include="..\Console\빙고 + 슬라이드퍼즐.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Adventurer.cpp" />
-    <ClCompile Include="Archer.cpp" />
-    <ClCompile Include="GameScene.cpp" />
-    <ClCompile Include="Mage.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="Thief.cpp" />
-    <ClCompile Include="WaitingScene.cpp" />
-    <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="Adventurer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="EquipmentInventory.cpp" />
+    <ClCompile Include="GameScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemInventory.cpp" />
+    <ClCompile Include="Mage.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="ShopGameScene.cpp" />
+    <ClCompile Include="Thief.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WaitingScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="방학시험.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -157,6 +182,7 @@
     <ClCompile Include="반복문,연산자 과제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="상점 시스템.cpp" />
     <ClCompile Include="캐릭터클래스 구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -181,7 +207,9 @@
     <ClCompile Include="컬러 캐릭터 출력.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="클래스 대전게임.cpp" />
+    <ClCompile Include="클래스 대전게임.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="클래스화.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -195,13 +223,22 @@
   <ItemGroup>
     <ClInclude Include="Adventurer.h" />
     <ClInclude Include="Archer.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="EquipmentInventory.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemInventory.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="ShopGameScene.h" />
     <ClInclude Include="Thief.h" />
     <ClInclude Include="WaitingScene.h" />
     <ClInclude Include="Warrior.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

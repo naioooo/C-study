@@ -2,8 +2,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <set>
+#include <map>
 #include <algorithm>
 #include <time.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -24,3 +27,5 @@ enum CLASS
 	ARCHER,
 	THIEF
 };
+
+

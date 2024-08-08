@@ -55,6 +55,30 @@
     <Filter Include="헤더 파일\12. 템플릿">
       <UniqueIdentifier>{f0b4c31f-ccc7-4677-87df-6c2906e5843c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\13. STL">
+      <UniqueIdentifier>{fbe8bf34-4008-4587-9505-4e1adfba34f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13. STL\상점시스템">
+      <UniqueIdentifier>{7d6db6a6-1d52-42f9-ab18-2a8f95237350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\13. STL">
+      <UniqueIdentifier>{6ffd1115-a573-412e-be77-9a375894362f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\13. STL\상점시스템">
+      <UniqueIdentifier>{f60feaaa-0a67-440e-90fa-17ce3e1c8f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13. STL\상점시스템\Inventory">
+      <UniqueIdentifier>{ca3e4798-b5a7-418b-9342-515e44716097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\13. STL\상점시스템\Inventory">
+      <UniqueIdentifier>{c36b623b-4fa8-4ba7-ad15-45b6afd12392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13. STL\상점시스템\Item">
+      <UniqueIdentifier>{e5f70d69-dbad-4d0c-be7f-bb33767cf549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\13. STL\상점시스템\Item">
+      <UniqueIdentifier>{5a86f190-b858-4987-91e4-cc6308333f20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="캐릭터 출력.cpp">
@@ -138,6 +162,36 @@
     <ClCompile Include="클래스 대전게임.cpp">
       <Filter>소스 파일\12. 템플릿</Filter>
     </ClCompile>
+    <ClCompile Include="상점 시스템.cpp">
+      <Filter>소스 파일\13. STL\상점시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\13. STL\상점시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInventory.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentInventory.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopGameScene.cpp">
+      <Filter>소스 파일\13. STL\상점시스템</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library.h">
@@ -166,6 +220,33 @@
     </ClInclude>
     <ClInclude Include="WaitingScene.h">
       <Filter>헤더 파일\12. 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>헤더 파일\13. STL\상점시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentInventory.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInventory.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>헤더 파일\13. STL\상점시스템\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopGameScene.h">
+      <Filter>헤더 파일\13. STL\상점시스템</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
