@@ -233,7 +233,13 @@
     <ClCompile Include="240807_template.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="240807_template%282%29.cpp" />
+    <ClCompile Include="240807_template%282%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240808_STL.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240808_Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bike.h" />

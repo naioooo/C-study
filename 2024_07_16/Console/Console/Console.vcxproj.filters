@@ -55,6 +55,9 @@
     <Filter Include="Lesson\12. 템플릿">
       <UniqueIdentifier>{79fb2903-ebbb-44b8-a96f-63bea0b37019}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\13. STL">
+      <UniqueIdentifier>{36897db1-b106-4237-9624-c3e45fa311cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -164,6 +167,12 @@
     </ClCompile>
     <ClCompile Include="240807_업다운캐스팅.cpp">
       <Filter>Lesson\11. 가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="240808_STL.cpp">
+      <Filter>Lesson\13. STL</Filter>
+    </ClCompile>
+    <ClCompile Include="240808_Vector.cpp">
+      <Filter>Lesson\13. STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
