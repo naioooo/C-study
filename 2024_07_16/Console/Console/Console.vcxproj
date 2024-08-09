@@ -239,7 +239,13 @@
     <ClCompile Include="240808_STL.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="240808_Vector.cpp" />
+    <ClCompile Include="240808_Vector.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240809_List Map.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240809_Map.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bike.h" />
