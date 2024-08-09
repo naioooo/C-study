@@ -15,6 +15,7 @@ class ShopGameScene
 private:
 	Shop* shop;
 	Character* player;
+	map<string, Item*> database;
 
 public:
 	ShopGameScene();

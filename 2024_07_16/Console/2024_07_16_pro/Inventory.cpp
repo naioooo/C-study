@@ -10,6 +10,11 @@ Inventory::Inventory(const vector<pair<Item*, int>> i)
 
 Inventory::~Inventory()
 {
+	for (auto& item : items)
+	{
+		delete item.first;
+		item.first = nullptr;
+	}
 }
 
 vector<pair<Item*, int>>& Inventory::GetItems()

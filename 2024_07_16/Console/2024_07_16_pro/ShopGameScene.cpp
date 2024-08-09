@@ -12,6 +12,11 @@ ShopGameScene::ShopGameScene(Shop*& s, Character*& c)
 
 ShopGameScene::~ShopGameScene()
 {
+	delete shop;
+	delete player;
+
+	shop = nullptr;
+	player = nullptr;
 }
 
 void ShopGameScene::GameLoop()

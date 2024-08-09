@@ -14,7 +14,11 @@ Character::Character(const string& name, const int cash, const int attack, const
 
 Character::~Character()
 {
+	delete equipmentinventory;
+	delete iteminventory;
 
+	equipmentinventory = nullptr;
+	iteminventory = nullptr;
 }
 
 string Character::Getname()
