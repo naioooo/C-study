@@ -58,6 +58,12 @@
     <Filter Include="Lesson\13. STL">
       <UniqueIdentifier>{36897db1-b106-4237-9624-c3e45fa311cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\14. 알고리즘">
+      <UniqueIdentifier>{f35b67a8-264f-4cd6-8528-da4690c4fcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\14. 알고리즘">
+      <UniqueIdentifier>{5e8f4de4-801e-402c-94d8-9cc084479046}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240716.cpp">
@@ -180,6 +186,12 @@
     <ClCompile Include="240809_Map.cpp">
       <Filter>Lesson\13. STL</Filter>
     </ClCompile>
+    <ClCompile Include="240812_재귀.cpp">
+      <Filter>Lesson\14. 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="240812_LinkedList.cpp">
+      <Filter>Lesson\14. 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maingame.h">
@@ -202,6 +214,9 @@
     </ClInclude>
     <ClInclude Include="Bike.h">
       <Filter>헤더 파일\10. 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="240812_LinkedList.h">
+      <Filter>헤더 파일\14. 알고리즘</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

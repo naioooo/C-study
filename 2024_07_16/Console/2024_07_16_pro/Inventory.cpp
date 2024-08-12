@@ -28,7 +28,7 @@ void Inventory::SetItems(const vector<pair<Item*, int>>& i)
 }
 
 void Inventory::InsertItem(Item*& insert)
-{
+{	
 	bool check = false;
 
 	for (auto& item : items)
